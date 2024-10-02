@@ -1,0 +1,799 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'marten sans', Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+
+body {
+    background-color: black;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.main {
+    height: 680px;
+    background-image: url(material/bg.jpg);
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 27px;
+    max-width: 75vw;
+    margin: auto;
+}
+
+
+nav span img {
+    height: 40px;
+}
+
+
+.upper-buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 26px;
+    position: relative;
+}
+
+
+.eng-logo {
+    filter: invert(100%);
+    position: absolute;
+    left: 42px;
+    bottom: 9px;
+}
+
+.eng-button {
+    background-color: rgba(31, 27, 27, 0.452);
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 4px 34px 6px 36px;
+    border: 1px solid rgba(255, 255, 255, 0.349);
+    border-radius: 5px;
+    appearance: none;
+}
+
+.down-arrow {
+    filter: invert(100);
+    position: absolute;
+    left: 123px;
+    bottom: 4px;
+}
+
+.signin {
+    font-weight: 500;
+    font-size: 15px;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+}
+
+.written-box {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wbpadding{
+    padding: 189px 0 0 0;
+}
+
+
+.written-box .oneline{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    text-align: center;
+}
+
+.written-box .twoline{
+    font-size: 25px;
+    font-weight: 600px;
+    line-height: 58px;
+    text-align: center;
+}
+
+.written-box .threeline{
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 58px;
+    text-align: center;
+}
+
+.centre-buttons {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 0px 20px 10px 20px;
+}
+
+
+input {
+    background-color: rgba(31, 27, 27, 0.452);
+    height: 57px;
+    width: 364px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+input::placeholder {
+    padding-left: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(187, 185, 185);
+
+}
+
+.getstarted {
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    height: 58px;
+    width: 211px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding-bottom: 4px;
+}
+
+.getstarted:hover {
+    background-color: rgb(214, 12, 22);
+}
+
+.op {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1) 60%, rgba(0, 0, 0, 1) 100%);
+    background-color: rgba(0, 0, 0, 0.336);
+    width: 100%;
+    height: 100%;
+}
+
+/* combined pages data */
+.strip {
+    height: 10px;
+    width: 100vw;
+    background-color: rgb(35, 35, 35);
+}
+
+.whole-page {
+    height: 28vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: auto;
+    flex-direction: row;
+    padding: 70px 180px;
+}
+
+.data-vid-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.bold-text {
+    font-size: 49px;
+    font-weight: 900;
+    color: rgb(253, 252, 252);
+
+}
+
+.small-text {
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.pic-vid {
+    height: 100%;
+    width: 44vw;
+    position: relative;
+}
+
+.text {
+    width: 44vw;
+}
+
+
+/* stranger things data */
+
+.stbig-img {
+    height: 100%;
+    width: 100%;
+}
+
+.stsmall-img {
+    height: 80px;
+}
+
+.st-lower-box {
+    border: 2px solid rgb(73, 72, 72);
+    height: 100px;
+    width: 55%;
+    border-radius: 10px;
+    position: absolute;
+    left: 22%;
+    bottom: 7%;
+    background-color: black;
+}
+
+.inside-boxst :nth-child(1) {
+    width: fit-content;
+}
+
+.inside-boxst> :nth-child(2) {
+    height: fit-content;
+    width: 130px;
+    padding-left: 10px;
+    margin: auto;
+}
+
+.inside-boxst {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.inside-boxst :nth-child(3) {
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.inside-boxst :nth-child(3) img {
+    height: 100%;
+    width: 100%;
+}
+
+.st-text {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Dd-text {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(0, 113, 220);
+}
+
+/* tv data */
+.tv-img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.tvvid{
+    position: absolute;
+    overflow: hidden;
+    bottom: 39px;
+    left: 0px;
+    width: 95%;
+    
+}
+
+/* rajma chawal data */
+
+.rajmavid{
+    position: absolute;
+    overflow: hidden;
+    bottom: 43%;
+    left: 20%;
+    width: 61%;
+}
+
+/* frequently data */
+.Frequently {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.que{
+    padding: 10px;
+    color: white;
+    
+}
+.que .ques {
+    font-size: 26px;
+    background-color: #3A3A3A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    max-width: 72vw;
+    margin: 11px auto;
+    cursor: pointer;
+}
+.ques:hover{
+    background-color: rgb(80, 76, 76);
+    transition: all 0.3s ease-out;
+}
+.endpad{
+    margin: 60px 0;
+}
+
+/* ending data */
+.ending{
+    color:rgba(255, 255, 255, 0.7);
+    padding: 0 0 71px 0;
+}
+.queline{
+    max-width: 77vw;
+    font-size: 16px;
+    font-weight: 400;
+    margin: auto;
+    padding: 0 0 20px 0;
+}
+
+/* faq data */
+.faq{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 77vw;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 400;
+    gap: 13px 0px;
+    
+
+}
+.faq a{
+    color: rgba(255, 255, 255, 0.7);
+}
+.endeng-button{
+    max-width: 77vw;
+    margin: auto;
+    padding: 16px 0;
+    position: relative;
+}
+.endeng-logo{
+    filter: invert(100%);
+    position: absolute;
+    left: 13px;
+    bottom: 25px;
+}
+.enddown-arrow{
+    filter: invert(100);
+    position: absolute;
+    left: 98px;
+    bottom: 20px;
+}
+
+@media screen and (max-width:400px) {
+
+    nav {
+        padding: 20px;
+    }
+
+    nav span img {
+        height: 20px;
+    }
+
+    .upper-buttons {
+        gap: 8px;
+    }
+
+    .eng-button {
+        font-size: 10px;
+    }
+
+    .eng-logo {
+        left: 22px;
+        bottom: 6px;
+    }
+
+
+    .down-arrow {
+        filter: invert(100);
+        position: absolute;
+        left: 85px;
+        bottom: 2px;
+    }
+
+    .signin {
+        font-size: 9px;
+    }
+
+    .main {
+        height: auto;
+        background-size: 1000px;
+    }
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .written-box> :nth-child(1) {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .written-box> :nth-child(2) {
+        font-size: 19px;
+        line-height: 38px;
+    }
+
+    .written-box> :nth-child(3) {
+        font-size: 14px;
+        line-height: 38px;
+    }
+
+    .written-box {
+        padding: 40px 40px 0 40px;
+    }
+
+    .centre-buttons {
+        flex-direction: column;
+    }
+
+    input {
+        height: 40px;
+        width: 80vw;
+    }
+
+    .getstarted {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .whole-page {
+        padding: 70px 120px;
+        height: fit-content;
+    }
+
+    .data-vid-text {
+        flex-direction: column;
+    }
+
+    .text {
+        width: 70vw;
+    }
+
+    .bold-text {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .small-text {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .st-lower-box {
+        width: 230px;
+        height: 57px;
+        left: -17%;
+    }
+    .stsmall-img {
+        height: 35px;
+    }
+
+    .endeng-logo {
+        left: 15px;
+        bottom: 21px;
+    }
+    .enddown-arrow{
+        left: 79px;
+        bottom: 17px;
+    }
+    .faq{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:600px) and (min-width:400px) {
+    nav {
+        padding: 20px;
+    }
+
+    nav span img {
+        height: 20px;
+    }
+
+    .upper-buttons {
+        gap: 8px;
+    }
+
+    .eng-button {
+        font-size: 10px;
+    }
+
+    .eng-logo {
+        left: 22px;
+        bottom: 6px;
+    }
+
+    .down-arrow {
+        filter: invert(100);
+        position: absolute;
+        left: 86px;
+        bottom: 2px;
+    }
+
+    .signin {
+        font-size: 9px;
+    }
+
+    .main {
+        height: 450px;
+    }
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .written-box> :nth-child(1) {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .written-box> :nth-child(2) {
+        font-size: 19px;
+        line-height: 38px;
+    }
+
+    .written-box> :nth-child(3) {
+        font-size: 14px;
+        line-height: 38px;
+    }
+
+    .written-box {
+        padding: 40px 40px 0 40px;
+    }
+
+    .centre-buttons {
+        flex-direction: column;
+    }
+
+    input {
+        height: 40px;
+        width: 80vw;
+    }
+
+    .getstarted {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .whole-page {
+        padding: 70px 120px;
+        height: fit-content;
+    }
+
+    .data-vid-text {
+        flex-direction: column;
+    }
+
+    .text {
+        width: 70vw;
+    }
+
+    .bold-text {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .small-text {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .st-lower-box {
+        width: 230px;
+        height: 57px;
+        left: -2%;
+    }
+    .stsmall-img {
+        height: 40px;
+    }
+    .stflex{
+        display: flex;
+        align-items: center;
+    }
+    .endeng-logo {
+        left: 15px;
+        bottom: 21px;
+    }
+    .enddown-arrow{
+        left: 79px;
+        bottom: 17px;
+    }
+    .faq{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
+
+@media screen and (max-width:980px) and (min-width:600px) {
+    nav {
+        padding: 20px;
+    }
+
+    nav span img {
+        height: 20px;
+    }
+
+    .upper-buttons {
+        gap: 8px;
+    }
+
+    .eng-button {
+        font-size: 10px;
+
+    }
+
+    .eng-logo {
+        left: 22px;
+        bottom: 6px;
+    }
+
+    .down-arrow {
+        filter: invert(100);
+        position: absolute;
+        left: 86px;
+        bottom: 2px;
+    }
+
+    .signin {
+        font-size: 9px;
+    }
+
+    .main {
+        height: 450px;
+    }
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .written-box> :nth-child(1) {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .written-box> :nth-child(2) {
+        font-size: 19px;
+        line-height: 38px;
+    }
+
+    .written-box> :nth-child(3) {
+        font-size: 14px;
+        line-height: 38px;
+    }
+
+    .written-box {
+        padding: 40px 40px 0 40px;
+    }
+
+    .centre-buttons {
+        flex-direction: column;
+    }
+
+    input {
+        height: 40px;
+        width: 80vw;
+    }
+
+    .getstarted {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .whole-page {
+        height: fit-content;
+        padding: 70px 120px;
+    }
+
+    .data-vid-text {
+        flex-direction: column;
+    }
+
+    .text {
+        width: 70vw;
+    }
+
+    .bold-text {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .small-text {
+        text-align: center;
+        font-size: 18px;
+    }
+
+
+    .st-lower-box {
+        width: 245px;
+        height: 57px;
+        left: 18%;
+        
+    }
+    .stsmall-img{
+        height: 40px;
+    }
+    .stflex{
+        display: flex;
+        align-items: center;
+    }
+    .endeng-logo {
+        left: 15px;
+        bottom: 21px;
+    }
+    .enddown-arrow{
+        left: 79px;
+        bottom: 17px;
+    }
+    .faq{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
+
+@ @media screen and (max-width:1280px) and (min-width:980px) {
+    nav {
+        max-width: 90vw;
+    }
+
+    .main {
+        height: 540px;
+    }
+
+    .written-box> :nth-child(1) {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .written-box> :nth-child(2) {
+        font-size: 19px;
+        line-height: 48px;
+    }
+
+    .written-box> :nth-child(3) {
+        font-size: 14px;
+        line-height: 48px;
+    }
+
+    .written-box {
+        padding: 103px 40px 0 40px;
+    }
+
+    .whole-page {
+        padding: 70px 30px;
+    }
+
+    .st-lower-box {
+        width: 245px;
+    }
+    .stflex{
+        display: flex;
+        align-items: center;
+        
+    }
+
+
+}
