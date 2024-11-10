@@ -453,6 +453,11 @@ input::placeholder {
         height: 40px;
         width: 80vw;
     }
+    input[type=text] {
+        color: white;
+        padding-left: 5px;
+        
+    }
 
     .getstarted {
         height: 40px;
@@ -572,6 +577,11 @@ input::placeholder {
     input {
         height: 40px;
         width: 80vw;
+    }
+    input[type=text] {
+        color: white;
+        padding-left: 5px;
+        
     }
 
     .getstarted {
@@ -699,6 +709,11 @@ input::placeholder {
         height: 40px;
         width: 80vw;
     }
+    input[type=text] {
+        color: white;
+        padding-left: 5px;
+        
+    }
 
     .getstarted {
         height: 40px;
@@ -798,7 +813,11 @@ input::placeholder {
         align-items: center;
         
     }
+    input[type=text] {
+        color: white;
+        padding-left: 5px;
+        
+    }
 
 
 }
-
