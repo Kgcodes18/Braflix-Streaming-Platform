@@ -29,7 +29,7 @@ nav {
 
 
 nav span img {
-    height: 40px;
+    height: 65px;
 }
 
 
@@ -308,7 +308,7 @@ input::placeholder {
 /* frequently data */
 .Frequently {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 7;
 }
 
 .que{
@@ -332,7 +332,7 @@ input::placeholder {
     transition: all 0.3s ease-out;
 }
 .endpad{
-    margin: 60px 0;
+    margin: 7 0;
 }
 
 /* ending data */
@@ -389,7 +389,7 @@ input::placeholder {
     }
 
     nav span img {
-        height: 20px;
+        height: 65;
     }
 
     .upper-buttons {
@@ -516,7 +516,7 @@ input::placeholder {
     }
 
     nav span img {
-        height: 20px;
+        height: 65;
     }
 
     .upper-buttons {
@@ -646,7 +646,7 @@ input::placeholder {
     }
 
     nav span img {
-        height: 20px;
+        height: 65;
     }
 
     .upper-buttons {
