@@ -1,3 +1,3 @@
-# Netflix-Clone
-Clone of netflix using html and css for practice
+# Braflix India - Watch TV Shows Online, Watch Movies Online
+Braflix India using html and css for practice
 https://kgcodes18.github.io/Netflix-Clone/
